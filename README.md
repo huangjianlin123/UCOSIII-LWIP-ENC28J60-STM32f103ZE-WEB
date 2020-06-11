@@ -10,11 +10,11 @@
 
 
 
-# 网页按键关闭led1
+# 网页按键打开led1（led0是第一个led）从左到右
 ![image](https://github.com/huangjianlin123/UCOSIII-LWIP-ENC28J60-STM32f103ZE-WEB/blob/master/image/2.jpg)
 
 
-# 开发板上的led1熄灭（led0是第一个led）
+# 开发板上的led1点亮（led1是第二个led）
 
 ![image](https://github.com/huangjianlin123/UCOSIII-LWIP-ENC28J60-STM32f103ZE-WEB/blob/master/image/2.2.jpg)
 
