@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\USMART -I ..\HARDWARE\SPI -I ..\uIP-1.0 -I ..\uIP-APP -I ..\HARDWARE\ENC28J60 -I ..\HARDWARE\TIMER -I ..\HARDWARE\ADC -I ..\HARDWARE\ITEMP -I ..\LWIP-SRC\include -I ..\LWIP-APP\ -I ..\LWIP-SRC\include\ipv4 -I ..\LWIP-APP\config -I ..\LWIP-APP\tcp -I ..\LWIP-APP\udp -I ..\LWIP-APP\webserver -I ..\LWIP-APP\webserver\makefsdata -I ..\UCOSIII\uC-CPU -I ..\UCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\UCOSIII\uC-LIB -I ..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M3\RealView -I ..\UCOSIII\uCOS-III -I ..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\UCOSIII\UCOS_BSP -I ..\UCOSIII\uCOS_CONFIG -I ..\UCOSIII\uCOS-III\Source -I ..\UCOSIII_Task -I ..\SYSTEM\mysys -I ..\SYSTEM\sys -I ..\UCOSIII_Task -I ..\HARDWARE\tftlcd
+-I.\RTE\_Target_1
+-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+-IC:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="528" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\stm32f10x_fsmc.o --omf_browse ..\obj\stm32f10x_fsmc.crf --depend ..\obj\stm32f10x_fsmc.d --feedback "..\OBJ\ENC28J60.fed" "..\STM32F10x_FWLib\src\stm32f10x_fsmc.c"

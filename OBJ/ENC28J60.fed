@@ -1,0 +1,541 @@
+;#<FEEDBACK># ARM Linker, 5060750: Last Updated: Fri Jun 12 06:07:34 2020
+;VERSION 0.2
+;FILE adc.o
+;FILE bsp.o
+CPU_TS32_to_uSec <= USED 0
+;FILE core_cm3.o
+__REV16 <= USED 0
+__REVSH <= USED 0
+__get_MSP <= USED 0
+__get_PSP <= USED 0
+__set_MSP <= USED 0
+__set_PSP <= USED 0
+;FILE cpu_c.o
+CPU_BitBandClr <= USED 0
+CPU_BitBandSet <= USED 0
+CPU_IntSrcDis <= USED 0
+CPU_IntSrcEn <= USED 0
+CPU_IntSrcPendClr <= USED 0
+CPU_IntSrcPrioGet <= USED 0
+CPU_IntSrcPrioSet <= USED 0
+;FILE cpu_core.o
+CPU_CntLeadZeros08 <= USED 0
+CPU_CntLeadZeros16 <= USED 0
+CPU_CntLeadZeros32 <= USED 0
+CPU_CntLeadZeros64 <= USED 0
+CPU_CntTrailZeros08 <= USED 0
+CPU_CntTrailZeros16 <= USED 0
+CPU_CntTrailZeros32 <= USED 0
+CPU_CntTrailZeros64 <= USED 0
+CPU_NameGet <= USED 0
+CPU_NameSet <= USED 0
+CPU_SW_Exception <= USED 0
+CPU_TS_Get32 <= USED 0
+CPU_TS_TmrFreqGet <= USED 0
+CPU_TS_Update <= USED 0
+;FILE def.o
+;FILE delay.o
+;FILE enc28j60.o
+ENC28J60_Get_EREVID <= USED 0
+;FILE etharp.o
+etharp_add_static_entry <= USED 0
+etharp_cleanup_netif <= USED 0
+etharp_find_addr <= USED 0
+etharp_remove_static_entry <= USED 0
+;FILE ethernetif.o
+;FILE fs.o
+;FILE httpd.o
+;FILE icmp.o
+;FILE inet_chksum.o
+inet_chksum_pseudo_partial <= USED 0
+;FILE init.o
+;FILE ip.o
+;FILE ip_addr.o
+ip4_addr_netmask_valid <= USED 0
+ipaddr_addr <= USED 0
+ipaddr_aton <= USED 0
+ipaddr_ntoa <= USED 0
+ipaddr_ntoa_r <= USED 0
+;FILE ip_frag.o
+;FILE key.o
+;FILE key_task.o
+;FILE lcdque_task.o
+;FILE led.o
+;FILE led_task.o
+;FILE lib_ascii.o
+ASCII_Cmp <= USED 0
+ASCII_IsAlpha <= USED 0
+ASCII_IsAlphaNum <= USED 0
+ASCII_IsBlank <= USED 0
+ASCII_IsCtrl <= USED 0
+ASCII_IsDig <= USED 0
+ASCII_IsDigHex <= USED 0
+ASCII_IsDigOct <= USED 0
+ASCII_IsGraph <= USED 0
+ASCII_IsLower <= USED 0
+ASCII_IsPrint <= USED 0
+ASCII_IsPunct <= USED 0
+ASCII_IsSpace <= USED 0
+ASCII_IsUpper <= USED 0
+ASCII_ToLower <= USED 0
+ASCII_ToUpper <= USED 0
+;FILE lib_math.o
+Math_Init <= USED 0
+Math_Rand <= USED 0
+Math_RandSeed <= USED 0
+Math_RandSetSeed <= USED 0
+;FILE lib_mem.o
+Mem_Cmp <= USED 0
+Mem_HeapAlloc <= USED 0
+Mem_HeapGetSizeRem <= USED 0
+Mem_Init <= USED 0
+Mem_Move <= USED 0
+Mem_PoolBlkFree <= USED 0
+Mem_PoolBlkGet <= USED 0
+Mem_PoolBlkGetNbrAvail <= USED 0
+Mem_PoolBlkGetUsedAtIx <= USED 0
+Mem_PoolBlkIxGet <= USED 0
+Mem_PoolClr <= USED 0
+Mem_PoolCreate <= USED 0
+Mem_SegGetSizeRem <= USED 0
+;FILE lib_str.o
+Str_Cat <= USED 0
+Str_Cat_N <= USED 0
+Str_Char <= USED 0
+Str_Char_Last <= USED 0
+Str_Char_Last_N <= USED 0
+Str_Char_N <= USED 0
+Str_Char_Replace <= USED 0
+Str_Char_Replace_N <= USED 0
+Str_Cmp <= USED 0
+Str_CmpIgnoreCase <= USED 0
+Str_CmpIgnoreCase_N <= USED 0
+Str_Cmp_N <= USED 0
+Str_Copy <= USED 0
+Str_Copy_N <= USED 0
+Str_FmtNbr_Int32S <= USED 0
+Str_FmtNbr_Int32U <= USED 0
+Str_Len <= USED 0
+Str_Len_N <= USED 0
+Str_ParseNbr_Int32S <= USED 0
+Str_ParseNbr_Int32U <= USED 0
+Str_Str <= USED 0
+Str_Str_N <= USED 0
+;FILE lwip_demo.o
+;FILE lwip_task.o
+;FILE main.o
+;FILE mem.o
+mem_calloc <= USED 0
+;FILE memp.o
+;FILE misc.o
+NVIC_SetVectorTable <= USED 0
+NVIC_SystemLPConfig <= USED 0
+;FILE mysys.o
+;FILE netif.o
+netif_find <= USED 0
+netif_remove <= USED 0
+netif_set_down <= USED 0
+netif_set_link_down <= USED 0
+netif_set_link_up <= USED 0
+;FILE os_app_hooks.o
+App_OS_ClrAllHooks <= USED 0
+App_OS_IdleTaskHook <= USED 0
+App_OS_InitHook <= USED 0
+App_OS_SetAllHooks <= USED 0
+App_OS_StatTaskHook <= USED 0
+App_OS_TaskCreateHook <= USED 0
+App_OS_TaskDelHook <= USED 0
+App_OS_TaskReturnHook <= USED 0
+App_OS_TaskSwHook <= USED 0
+App_OS_TimeTickHook <= USED 0
+;FILE os_cfg_app.o
+;FILE os_core.o
+OSSchedRoundRobinYield <= USED 0
+OSVersion <= USED 0
+OS_PendAbort <= USED 0
+OS_PendAbort1 <= USED 0
+OS_PendListInsertHead <= USED 0
+OS_PendObjDel <= USED 0
+OS_PendObjDel1 <= USED 0
+;FILE os_cpu_c.o
+OS_CPU_SysTickHandler <= USED 0
+OS_CPU_SysTickInit <= USED 0
+;FILE os_dbg.o
+;FILE os_flag.o
+OSFlagDel <= USED 0
+OSFlagPendAbort <= USED 0
+OSFlagPendGetFlagsRdy <= USED 0
+OS_FlagClr <= USED 0
+OS_FlagDbgListRemove <= USED 0
+;FILE os_int.o
+;FILE os_mem.o
+OSMemCreate <= USED 0
+OSMemGet <= USED 0
+OSMemPut <= USED 0
+OS_MemDbgListAdd <= USED 0
+;FILE os_msg.o
+;FILE os_mutex.o
+OSMutexDel <= USED 0
+OSMutexPendAbort <= USED 0
+OS_MutexClr <= USED 0
+OS_MutexDbgListRemove <= USED 0
+;FILE os_prio.o
+;FILE os_q.o
+OSQDel <= USED 0
+OSQFlush <= USED 0
+OSQPendAbort <= USED 0
+OS_QClr <= USED 0
+OS_QDbgListRemove <= USED 0
+;FILE os_sem.o
+OSSemDel <= USED 0
+OSSemPend <= USED 0
+OSSemPendAbort <= USED 0
+OSSemPost <= USED 0
+OSSemSet <= USED 0
+OS_SemClr <= USED 0
+OS_SemDbgListRemove <= USED 0
+;FILE os_stat.o
+;FILE os_task.o
+OSTaskChangePrio <= USED 0
+OSTaskQFlush <= USED 0
+OSTaskQPend <= USED 0
+OSTaskQPendAbort <= USED 0
+OSTaskQPost <= USED 0
+OSTaskRegGet <= USED 0
+OSTaskRegGetID <= USED 0
+OSTaskRegSet <= USED 0
+OSTaskSemPendAbort <= USED 0
+OSTaskSemPost <= USED 0
+OSTaskSemSet <= USED 0
+OSTaskTimeQuantaSet <= USED 0
+;FILE os_tick.o
+;FILE os_time.o
+OSTimeDlyResume <= USED 0
+OSTimeGet <= USED 0
+OSTimeSet <= USED 0
+;FILE os_tmr.o
+OSTmrCreate <= USED 0
+OSTmrDel <= USED 0
+OSTmrRemainGet <= USED 0
+OSTmrStart <= USED 0
+OSTmrStateGet <= USED 0
+OSTmrStop <= USED 0
+OS_TmrClr <= USED 0
+OS_TmrDbgListAdd <= USED 0
+OS_TmrDbgListRemove <= USED 0
+;FILE pbuf.o
+pbuf_chain <= USED 0
+pbuf_coalesce <= USED 0
+pbuf_dechain <= USED 0
+pbuf_get_at <= USED 0
+pbuf_memcmp <= USED 0
+pbuf_memfind <= USED 0
+pbuf_strstr <= USED 0
+pbuf_take <= USED 0
+;FILE raw.o
+raw_bind <= USED 0
+raw_connect <= USED 0
+raw_new <= USED 0
+raw_recv <= USED 0
+raw_remove <= USED 0
+raw_send <= USED 0
+raw_sendto <= USED 0
+;FILE rtc.o
+;FILE spi.o
+SPI2_Init <= USED 0
+;FILE ssi_cgi_handle.o
+;FILE start_task.o
+;FILE startup_stm32f10x_hd.o
+;FILE stats.o
+;FILE stm32f10x_adc.o
+ADC_AnalogWatchdogCmd <= USED 0
+ADC_AnalogWatchdogSingleChannelConfig <= USED 0
+ADC_AnalogWatchdogThresholdsConfig <= USED 0
+ADC_AutoInjectedConvCmd <= USED 0
+ADC_ClearFlag <= USED 0
+ADC_ClearITPendingBit <= USED 0
+ADC_DMACmd <= USED 0
+ADC_DiscModeChannelCountConfig <= USED 0
+ADC_DiscModeCmd <= USED 0
+ADC_ExternalTrigConvCmd <= USED 0
+ADC_ExternalTrigInjectedConvCmd <= USED 0
+ADC_ExternalTrigInjectedConvConfig <= USED 0
+ADC_GetDualModeConversionValue <= USED 0
+ADC_GetITStatus <= USED 0
+ADC_GetInjectedConversionValue <= USED 0
+ADC_GetSoftwareStartConvStatus <= USED 0
+ADC_GetSoftwareStartInjectedConvCmdStatus <= USED 0
+ADC_ITConfig <= USED 0
+ADC_InjectedChannelConfig <= USED 0
+ADC_InjectedDiscModeCmd <= USED 0
+ADC_InjectedSequencerLengthConfig <= USED 0
+ADC_SetInjectedOffset <= USED 0
+ADC_SoftwareStartInjectedConvCmd <= USED 0
+ADC_StructInit <= USED 0
+ADC_TempSensorVrefintCmd <= USED 0
+;FILE stm32f10x_bkp.o
+BKP_ClearFlag <= USED 0
+BKP_ClearITPendingBit <= USED 0
+BKP_GetFlagStatus <= USED 0
+BKP_GetITStatus <= USED 0
+BKP_ITConfig <= USED 0
+BKP_RTCOutputConfig <= USED 0
+BKP_SetRTCCalibrationValue <= USED 0
+BKP_TamperPinCmd <= USED 0
+BKP_TamperPinLevelConfig <= USED 0
+;FILE stm32f10x_dbgmcu.o
+DBGMCU_Config <= USED 0
+DBGMCU_GetDEVID <= USED 0
+DBGMCU_GetREVID <= USED 0
+;FILE stm32f10x_fsmc.o
+FSMC_ClearFlag <= USED 0
+FSMC_ClearITPendingBit <= USED 0
+FSMC_GetECC <= USED 0
+FSMC_GetFlagStatus <= USED 0
+FSMC_GetITStatus <= USED 0
+FSMC_ITConfig <= USED 0
+FSMC_NANDCmd <= USED 0
+FSMC_NANDDeInit <= USED 0
+FSMC_NANDECCCmd <= USED 0
+FSMC_NANDInit <= USED 0
+FSMC_NANDStructInit <= USED 0
+FSMC_NORSRAMDeInit <= USED 0
+FSMC_NORSRAMStructInit <= USED 0
+FSMC_PCCARDCmd <= USED 0
+FSMC_PCCARDDeInit <= USED 0
+FSMC_PCCARDInit <= USED 0
+FSMC_PCCARDStructInit <= USED 0
+;FILE stm32f10x_gpio.o
+GPIO_AFIODeInit <= USED 0
+GPIO_DeInit <= USED 0
+GPIO_ETH_MediaInterfaceConfig <= USED 0
+GPIO_EXTILineConfig <= USED 0
+GPIO_EventOutputCmd <= USED 0
+GPIO_EventOutputConfig <= USED 0
+GPIO_PinLockConfig <= USED 0
+GPIO_PinRemapConfig <= USED 0
+GPIO_ReadInputData <= USED 0
+GPIO_ReadInputDataBit <= USED 0
+GPIO_ReadOutputData <= USED 0
+GPIO_ReadOutputDataBit <= USED 0
+GPIO_ResetBits <= USED 0
+GPIO_StructInit <= USED 0
+GPIO_Write <= USED 0
+GPIO_WriteBit <= USED 0
+;FILE stm32f10x_it.o
+;FILE stm32f10x_pwr.o
+PWR_ClearFlag <= USED 0
+PWR_DeInit <= USED 0
+PWR_EnterSTANDBYMode <= USED 0
+PWR_EnterSTOPMode <= USED 0
+PWR_GetFlagStatus <= USED 0
+PWR_PVDCmd <= USED 0
+PWR_PVDLevelConfig <= USED 0
+PWR_WakeUpPinCmd <= USED 0
+;FILE stm32f10x_rcc.o
+RCC_APB1PeriphResetCmd <= USED 0
+RCC_AdjustHSICalibrationValue <= USED 0
+RCC_ClearFlag <= USED 0
+RCC_ClearITPendingBit <= USED 0
+RCC_ClockSecuritySystemCmd <= USED 0
+RCC_DeInit <= USED 0
+RCC_GetITStatus <= USED 0
+RCC_GetSYSCLKSource <= USED 0
+RCC_HCLKConfig <= USED 0
+RCC_HSEConfig <= USED 0
+RCC_HSICmd <= USED 0
+RCC_ITConfig <= USED 0
+RCC_LSICmd <= USED 0
+RCC_MCOConfig <= USED 0
+RCC_PCLK1Config <= USED 0
+RCC_PCLK2Config <= USED 0
+RCC_PLLCmd <= USED 0
+RCC_PLLConfig <= USED 0
+RCC_SYSCLKConfig <= USED 0
+RCC_USBCLKConfig <= USED 0
+RCC_WaitForHSEStartUp <= USED 0
+;FILE stm32f10x_rtc.o
+RTC_ClearFlag <= USED 0
+RTC_GetCounter <= USED 0
+RTC_GetDivider <= USED 0
+RTC_GetFlagStatus <= USED 0
+RTC_SetAlarm <= USED 0
+;FILE stm32f10x_spi.o
+I2S_Cmd <= USED 0
+I2S_Init <= USED 0
+I2S_StructInit <= USED 0
+SPI_BiDirectionalLineConfig <= USED 0
+SPI_CalculateCRC <= USED 0
+SPI_DataSizeConfig <= USED 0
+SPI_GetCRC <= USED 0
+SPI_GetCRCPolynomial <= USED 0
+SPI_I2S_ClearFlag <= USED 0
+SPI_I2S_ClearITPendingBit <= USED 0
+SPI_I2S_DMACmd <= USED 0
+SPI_I2S_DeInit <= USED 0
+SPI_I2S_GetITStatus <= USED 0
+SPI_I2S_ITConfig <= USED 0
+SPI_NSSInternalSoftwareConfig <= USED 0
+SPI_SSOutputCmd <= USED 0
+SPI_StructInit <= USED 0
+SPI_TransmitCRC <= USED 0
+;FILE stm32f10x_tim.o
+TIM_ARRPreloadConfig <= USED 0
+TIM_BDTRConfig <= USED 0
+TIM_BDTRStructInit <= USED 0
+TIM_CCPreloadControl <= USED 0
+TIM_CCxCmd <= USED 0
+TIM_CCxNCmd <= USED 0
+TIM_ClearFlag <= USED 0
+TIM_ClearOC1Ref <= USED 0
+TIM_ClearOC2Ref <= USED 0
+TIM_ClearOC3Ref <= USED 0
+TIM_ClearOC4Ref <= USED 0
+TIM_CounterModeConfig <= USED 0
+TIM_CtrlPWMOutputs <= USED 0
+TIM_DMACmd <= USED 0
+TIM_DMAConfig <= USED 0
+TIM_DeInit <= USED 0
+TIM_ETRClockMode1Config <= USED 0
+TIM_ETRClockMode2Config <= USED 0
+TIM_ETRConfig <= USED 0
+TIM_EncoderInterfaceConfig <= USED 0
+TIM_ForcedOC1Config <= USED 0
+TIM_ForcedOC2Config <= USED 0
+TIM_ForcedOC3Config <= USED 0
+TIM_ForcedOC4Config <= USED 0
+TIM_GenerateEvent <= USED 0
+TIM_GetCapture1 <= USED 0
+TIM_GetCapture2 <= USED 0
+TIM_GetCapture3 <= USED 0
+TIM_GetCapture4 <= USED 0
+TIM_GetCounter <= USED 0
+TIM_GetFlagStatus <= USED 0
+TIM_GetPrescaler <= USED 0
+TIM_ICInit <= USED 0
+TIM_ICStructInit <= USED 0
+TIM_ITRxExternalClockConfig <= USED 0
+TIM_InternalClockConfig <= USED 0
+TIM_OC1FastConfig <= USED 0
+TIM_OC1Init <= USED 0
+TIM_OC1NPolarityConfig <= USED 0
+TIM_OC1PolarityConfig <= USED 0
+TIM_OC1PreloadConfig <= USED 0
+TIM_OC2FastConfig <= USED 0
+TIM_OC2Init <= USED 0
+TIM_OC2NPolarityConfig <= USED 0
+TIM_OC2PolarityConfig <= USED 0
+TIM_OC2PreloadConfig <= USED 0
+TIM_OC3FastConfig <= USED 0
+TIM_OC3Init <= USED 0
+TIM_OC3NPolarityConfig <= USED 0
+TIM_OC3PolarityConfig <= USED 0
+TIM_OC3PreloadConfig <= USED 0
+TIM_OC4FastConfig <= USED 0
+TIM_OC4Init <= USED 0
+TIM_OC4PolarityConfig <= USED 0
+TIM_OC4PreloadConfig <= USED 0
+TIM_OCStructInit <= USED 0
+TIM_PWMIConfig <= USED 0
+TIM_PrescalerConfig <= USED 0
+TIM_SelectCCDMA <= USED 0
+TIM_SelectCOM <= USED 0
+TIM_SelectHallSensor <= USED 0
+TIM_SelectInputTrigger <= USED 0
+TIM_SelectMasterSlaveMode <= USED 0
+TIM_SelectOCxM <= USED 0
+TIM_SelectOnePulseMode <= USED 0
+TIM_SelectOutputTrigger <= USED 0
+TIM_SelectSlaveMode <= USED 0
+TIM_SetAutoreload <= USED 0
+TIM_SetClockDivision <= USED 0
+TIM_SetCompare1 <= USED 0
+TIM_SetCompare2 <= USED 0
+TIM_SetCompare3 <= USED 0
+TIM_SetCompare4 <= USED 0
+TIM_SetCounter <= USED 0
+TIM_SetIC1Prescaler <= USED 0
+TIM_SetIC2Prescaler <= USED 0
+TIM_SetIC3Prescaler <= USED 0
+TIM_SetIC4Prescaler <= USED 0
+TIM_TIxExternalClockConfig <= USED 0
+TIM_TimeBaseStructInit <= USED 0
+TIM_UpdateDisableConfig <= USED 0
+TIM_UpdateRequestConfig <= USED 0
+;FILE stm32f10x_usart.o
+USART_ClearFlag <= USED 0
+USART_ClearITPendingBit <= USED 0
+USART_ClockInit <= USED 0
+USART_ClockStructInit <= USED 0
+USART_DMACmd <= USED 0
+USART_DeInit <= USED 0
+USART_GetFlagStatus <= USED 0
+USART_HalfDuplexCmd <= USED 0
+USART_IrDACmd <= USED 0
+USART_IrDAConfig <= USED 0
+USART_LINBreakDetectLengthConfig <= USED 0
+USART_LINCmd <= USED 0
+USART_OneBitMethodCmd <= USED 0
+USART_OverSampling8Cmd <= USED 0
+USART_ReceiverWakeUpCmd <= USED 0
+USART_SendBreak <= USED 0
+USART_SendData <= USED 0
+USART_SetAddress <= USED 0
+USART_SetGuardTime <= USED 0
+USART_SetPrescaler <= USED 0
+USART_SmartCardCmd <= USED 0
+USART_SmartCardNACKCmd <= USED 0
+USART_StructInit <= USED 0
+USART_WakeUpConfig <= USED 0
+;FILE sys.o
+INTX_DISABLE <= USED 0
+INTX_ENABLE <= USED 0
+MSR_MSP <= USED 0
+WFI_SET <= USED 0
+;FILE sys_arch.o
+;FILE system_stm32f10x.o
+SystemCoreClockUpdate <= USED 0
+;FILE tcp.o
+tcp_debug_state_str <= USED 0
+tcp_shutdown <= USED 0
+;FILE tcp_client.o
+tcp_client_connect_remotehost <= USED 0
+;FILE tcp_in.o
+;FILE tcp_out.o
+;FILE tcp_server.o
+;FILE tftlcd.o
+LCD_DrawLine_Color <= USED 0
+LCD_DrowSign <= USED 0
+LCD_RGBColor_Change <= USED 0
+LCD_ReadData <= USED 0
+LCD_ReadPoint <= USED 0
+LCD_ShowFontHZ <= USED 0
+LCD_ShowPicture <= USED 0
+LCD_ShowxNum <= USED 0
+LCD_WriteCmdData <= USED 0
+;FILE tftlcd_task.o
+;FILE timers.o
+sys_check_timeouts <= USED 0
+sys_restart_timeouts <= USED 0
+sys_untimeout <= USED 0
+;FILE timerx.o
+;FILE tsensor.o
+T_Adc_Init <= USED 0
+T_Get_Adc <= USED 0
+T_Get_Adc_Average <= USED 0
+T_Get_Temp <= USED 0
+;FILE udp.o
+udp_disconnect <= USED 0
+udp_remove <= USED 0
+udp_send <= USED 0
+udp_sendto <= USED 0
+udp_sendto_if <= USED 0
+;FILE udp_client.o
+udp_client_send_data <= USED 0
+;FILE udp_server.o
+udp_server_send_data <= USED 0
+;FILE usart.o
+_sys_exit <= USED 0
+;FILE usart_task.o
+;FILE usmart.o
+;FILE usmart_str.o
